@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .container {
+    @apply mx-auto max-w-5xl px-3 lg:px-14;
+  }
+
+  .btn {
+    @apply px-6 py-2.5;
+  }
+  .btn.btn-header {
+    @apply border border-white text-white duration-150 hover:bg-primary hover:text-white;
+  }
+  .btn.btn-outline {
+    @apply border border-primary text-primary duration-150 hover:bg-primary hover:text-white;
+  }
+  .btn.btn-offline {
+    @apply border border-primary text-primary duration-150;
+  }
+
+  .btn.btn-primary {
+    @apply bg-yellow-50 text-red-300;
+  }
+
+  p {
+    @apply leading-[32px] tracking-[.8px];
+  }
+
+  .imgCover {
+    @apply h-full w-full object-cover object-center;
+  }
+}
