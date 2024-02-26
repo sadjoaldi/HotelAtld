@@ -665,6 +665,14 @@ p {
   left: -3.5rem;
 }
 
+.-left-20 {
+  left: -5rem;
+}
+
+.-right-8 {
+  right: -2rem;
+}
+
 .bottom-4 {
   bottom: 1rem;
 }
@@ -677,12 +685,16 @@ p {
   right: 1rem;
 }
 
-.right-6 {
-  right: 1.5rem;
+.right-\[28rem\] {
+  right: 28rem;
 }
 
 .top-0 {
   top: 0px;
+}
+
+.top-20 {
+  top: 5rem;
 }
 
 .top-5 {
@@ -693,20 +705,8 @@ p {
   top: 2.25rem;
 }
 
-.left-0 {
-  left: 0px;
-}
-
-.-left-20 {
-  left: -5rem;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.z-40 {
-  z-index: 40;
+.left-7 {
+  left: 1.75rem;
 }
 
 .z-50 {
@@ -767,6 +767,11 @@ p {
   margin-bottom: 1.25rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -804,6 +809,14 @@ p {
   margin-top: 2.5rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -816,8 +829,20 @@ p {
   margin-top: 1.5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
 }
 
 .block {
@@ -848,6 +873,10 @@ p {
   height: 1rem;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -864,8 +893,16 @@ p {
   height: 100vh;
 }
 
-.w-10 {
-  width: 2.5rem;
+.h-\[344px\] {
+  height: 344px;
+}
+
+.h-\[344\] {
+  height: 344;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .w-10\/12 {
@@ -896,6 +933,10 @@ p {
   width: 1rem;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -920,12 +961,24 @@ p {
   width: 100%;
 }
 
-.w-40 {
-  width: 10rem;
-}
-
 .w-screen {
   width: 100vw;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-6\/12 {
+  width: 50%;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .max-w-sm {
@@ -942,6 +995,10 @@ p {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-start {
@@ -966,6 +1023,10 @@ p {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-4 {
@@ -1006,23 +1067,19 @@ p {
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-custom-image {
@@ -1031,6 +1088,10 @@ p {
 
 .bg-second-custom-image {
   background-image: url('https://img.freepik.com/photos-gratuite/jeune-femme-ayant-massage-du-visage-relaxant-dans-salon-spa_176420-7550.jpg');
+}
+
+.bg-thirt-custom-image {
+  background-image: url('https://images.unsplash.com/photo-1612152842505-f075576e6fee?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 
 .bg-cover {
@@ -1119,6 +1180,10 @@ p {
 
 .text-center {
   text-align: center;
+}
+
+.font-playfair {
+  font-family: Playfair Display, serif;
 }
 
 .font-raleway {
@@ -1210,10 +1275,6 @@ p {
 }
 
 @media (min-width: 640px) {
-  .sm\:absolute {
-    position: absolute;
-  }
-
   .sm\:block {
     display: block;
   }
@@ -1230,10 +1291,6 @@ p {
     height: 1.25rem;
   }
 
-  .sm\:h-full {
-    height: 100%;
-  }
-
   .sm\:w-3\/6 {
     width: 50%;
   }
@@ -1246,17 +1303,8 @@ p {
     width: 1.25rem;
   }
 
-  .sm\:w-full {
-    width: 100%;
-  }
-
-  .sm\:border-2 {
-    border-width: 2px;
-  }
-
-  .sm\:bg-black {
-    --tw-bg-opacity: 1;
-    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  .sm\:flex-col {
+    flex-direction: column;
   }
 
   .sm\:px-10 {
@@ -1285,12 +1333,20 @@ p {
     position: relative;
   }
 
+  .md\:right-80 {
+    right: 20rem;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
 
   .md\:block {
     display: block;
+  }
+
+  .md\:flex {
+    display: flex;
   }
 
   .md\:hidden {
@@ -1321,21 +1377,12 @@ p {
     width: auto;
   }
 
-  .md\:w-full {
-    width: 100%;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:bg-black {
-    --tw-bg-opacity: 1;
-    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   }
 
   .md\:px-2 {
@@ -1379,6 +1426,10 @@ p {
 }
 
 @media (min-width: 1024px) {
+  .lg\:right-\[28rem\] {
+    right: 28rem;
+  }
+
   .lg\:z-auto {
     z-index: auto;
   }
